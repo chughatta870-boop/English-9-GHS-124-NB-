@@ -1,0 +1,35 @@
+{
+  "name": "Class 9 English Guide - GHS 124/NB",
+  "short_name": "Eng 9 Guide",
+  "id": "/eng9-ghs124nb/",
+  "description": "Complete Class 9 English learning app: letters, essays, stories, comprehension, grammar, idioms, tenses and translation practice for GHS 124/NB students.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#0f4c81",
+  "theme_color": "#0f4c81",
+  "lang": "en-PK",
+  "dir": "ltr",
+  "categories": ["education", "books", "productivity"],
+  "icons": [
+    { "src": "icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    { "name": "Letters", "url": "./index.html#letters", "description": "Practice letter writing" },
+    { "name": "Essays", "url": "./index.html#essays", "description": "Read important essays" },
+    { "name": "Stories", "url": "./index.html#stories", "description": "Moral stories" },
+    { "name": "Grammar", "url": "./index.html#grammar", "description": "Grammar topics" }
+  ],
+  "prefer_related_applications": false
+}

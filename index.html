@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Class 9 English Guide - GHS 124/NB</title>
+<meta name="description" content="Complete Class 9 English learning app for GHS 124/NB: letters, essays, stories, comprehension, grammar and translation.">
+<meta name="theme-color" content="#0f4c81">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Eng 9 Guide">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <img src="icon-96.png" alt="logo" class="brand-icon">
+    <div>
+      <h1>Class 9 English Guide</h1>
+      <p class="watermark">M Ijaz • GHS 124/NB</p>
+    </div>
+  </div>
+  <button id="installBtn" class="install-btn hidden">⬇ Install App</button>
+</header>
+
+<nav class="tabbar" id="tabbar">
+  <button class="tab-btn active" data-tab="letters">✉ Letters</button>
+  <button class="tab-btn" data-tab="essays">📝 Essays</button>
+  <button class="tab-btn" data-tab="stories">📖 Stories</button>
+  <button class="tab-btn" data-tab="comprehension">🔍 Comprehension</button>
+  <button class="tab-btn" data-tab="grammar">🔤 Grammar</button>
+  <button class="tab-btn" data-tab="translation">🔁 Translation</button>
+</nav>
+
+<main id="main">
+  <div class="search-wrap">
+    <input type="search" id="searchBox" placeholder="Search topics...">
+  </div>
+
+  <section id="tab-letters" class="tab-panel active">
+    <div id="lettersList" class="card-list"></div>
+  </section>
+
+  <section id="tab-essays" class="tab-panel">
+    <div id="essaysList" class="card-list"></div>
+  </section>
+
+  <section id="tab-stories" class="tab-panel">
+    <div id="storiesList" class="card-list"></div>
+  </section>
+
+  <section id="tab-comprehension" class="tab-panel">
+    <div id="comprehensionList" class="card-list"></div>
+  </section>
+
+  <section id="tab-grammar" class="tab-panel">
+    <div class="subtabbar" id="grammarSubtabs">
+      <button class="subtab-btn active" data-sub="prepositions">Prepositions</button>
+      <button class="subtab-btn" data-sub="pairwords">Pair of Words</button>
+      <button class="subtab-btn" data-sub="voice">Active/Passive</button>
+      <button class="subtab-btn" data-sub="idioms">Idioms</button>
+      <button class="subtab-btn" data-sub="tenses">Tenses</button>
+    </div>
+    <div id="grammarContent" class="card-list"></div>
+  </section>
+
+  <section id="tab-translation" class="tab-panel">
+    <div id="translationList" class="card-list"></div>
+  </section>
+</main>
+
+<div id="detailModal" class="modal" hidden>
+  <div class="modal-box">
+    <button id="closeModal" class="close-btn">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>GHS Chak No. 124/NB • EMIS 38440014</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
